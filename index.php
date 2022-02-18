@@ -57,7 +57,10 @@ table{
 tbody tr td{
     border-bottom: 1px solid black;
 }
-
+td[rowspan] {
+  vertical-align: top;
+  text-align: left;
+}
 </style>
 <body>
 
