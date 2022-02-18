@@ -5,7 +5,6 @@ $host = "localhost";
 $user = "root"; 
 $password = ""; 
 $dbname = "examination"; 
-date_default_timezone_set("Asia/Calcutta");
 
 
 $con = mysqli_connect($host, $user, $password,$dbname);
